@@ -1,6 +1,6 @@
 # betterdiscord pimp-module
 
-PimpMyRice module for BetterDiscord.
+PimpMyRice module for [BetterDiscord](https://betterdiscord.app).
 
 *work in progress*
 

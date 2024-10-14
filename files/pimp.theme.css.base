@@ -38,7 +38,7 @@
     --text-link: {{accent.bg}};
 
     --interactive-selected: {{primary.bg}};
-    --interactive-active: {{primary.fg}};
+    --interactive-active: {{muted.fg}};
     --interactive-normal: {{accent.bg}};
     --interactive-muted: {{muted.fg}};
 
