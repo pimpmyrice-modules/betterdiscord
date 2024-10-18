@@ -7,10 +7,10 @@
 
 :root {
     --background-primary: {{normal.bg}};
-    --background-primary: {{normal.bg.alt}};
+    --background-primary-alt: {{normal.bg.alt}};
 
-    --background-secondary: {{panel.bg}};
-    --background-secondary-alt: {{panel.bg.alt}};
+    --background-secondary: {{panel.bg.alt}};
+    --background-secondary-alt: {{panel.bg}};
 
     --background-floating: {{dialog.bg}};
     --background-accent-gradient: {{primary.bg}};
@@ -22,7 +22,7 @@
     --background-mentioned-hover: {{accent.bg.alt}};
     --background-modifier-hover: {{accent.fg}};
     --background-modifier-active: {{primary.bg}};
-    --background-modifier-selected: {{primary.bg}};
+    --background-modifier-selected: {{normal.bg}};
     --background-modifier-accent: {{accent.bg}};
 
     --scrollbar-thin-track: transparent;
@@ -34,20 +34,24 @@
 
     --text-normal: {{normal.fg}};
     --text-positive: {{primary.bg}};
-    --text-muted: {{muted.fg}};
+    --text-muted: {{muted.bg}};
     --text-link: {{accent.bg}};
 
     --interactive-selected: {{primary.bg}};
-    --interactive-active: {{muted.fg}};
-    --interactive-normal: {{accent.bg}};
-    --interactive-muted: {{muted.fg}};
+    --interactive-active: {{panel.fg}};
+    --interactive-normal: {{primary.bg}};
+    --interactive-muted: {{panel.fg}};
 
     --header-primary: {{accent.bg}};
-    --header-secondary: {{muted.fg}};
+    --header-secondary: {{muted.bg}};
     --channels-default: {{panel.fg}};
-    --channeltextarea-background: {{normal.bg}};
+    --channeltextarea-background: {{panel.bg}};
 }
 
 [class*="userPanelInnerThemed_"] {
     background: {{panel.bg}};
+}
+
+[class*="searchBar"] * {
+    color: {{primary.fg}} !important;
 }
