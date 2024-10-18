@@ -2,12 +2,12 @@
 
 [PimpMyRice](https://github.com/daddodev/pimpmyrice) module for [BetterDiscord](https://betterdiscord.app).
 
-*work in progress*
+_work in progress_
 
 ## Set up
 
 ```bash
-pimp clone module pimp://betterdiscord
+rice clone module pimp://betterdiscord
 ```
 
 Enable the theme in BetterDiscord's settings.
