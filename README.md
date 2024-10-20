@@ -7,7 +7,7 @@ _work in progress_
 ## Set up
 
 ```bash
-rice clone module pimp://betterdiscord
+pimp clone module pimp://betterdiscord
 ```
 
 Enable the theme in BetterDiscord's settings.
