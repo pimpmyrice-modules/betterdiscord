@@ -18,8 +18,8 @@
 
     --bg-overlay-2: {{panel.bg}};
 
-    --background-mentioned: {{accent.bg}};
-    --background-mentioned-hover: {{accent.bg.alt}};
+    --background-mentioned: {{normal.bg.alt}};
+    --background-mentioned-hover: {{normal.bg.alt.alt}};
     --background-modifier-hover: {{accent.fg}};
     --background-modifier-active: {{primary.bg}};
     --background-modifier-selected: {{normal.bg}};
