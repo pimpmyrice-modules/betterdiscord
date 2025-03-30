@@ -2,8 +2,6 @@
 
 [PimpMyRice](https://github.com/daddodev/pimpmyrice) module for [BetterDiscord](https://betterdiscord.app).
 
-_work in progress_
-
 ## Set up
 
 ```bash

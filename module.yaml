@@ -1,2 +1,6 @@
+# yaml-language-server: $schema=../../.json_schemas/module.json
+
 run:
-  - file: '{{config_dir}}/BetterDiscord/themes/pimp.theme.css'
+  - action: file
+    target: "{{config_dir}}/BetterDiscord/themes/pimp.theme.css"
+    template: '{{variant | default("standard")}}.theme.css.j2'
